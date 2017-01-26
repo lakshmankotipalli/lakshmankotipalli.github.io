@@ -1,5 +1,6 @@
 body {
   background-color: #E3E3E3;
+  font-family: 'Nunito', sans-serif;
 }
 
 #pageHeader {
@@ -10,7 +11,8 @@ body {
 }
 
 #pageHeader h1 {
-  font-size: 24px;
+  color: #fff;
+  font-size: 28px;
   float: left;
   margin: 0px;
   /*clear: both;*/
