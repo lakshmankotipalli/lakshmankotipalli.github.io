@@ -1,7 +1,102 @@
 body {
   background-color: #E3E3E3;
+  font-family: 'Nunito', sans-serif;
 }
 
 #pageHeader {
   background-color: #0396E3;
+  height: 80px;
+  padding: 30px;
+  width: 100%;
+}
+
+#pageHeader h1 {
+  color: #fff;
+  font-size: 28px;
+  float: left;
+  margin: 0px;
+  /*clear: both;*/
+}
+
+#pageHeader nav {
+  float: right;
+  /*clear: both;*/
+}
+
+#pageHeader nav > a {
+  color: #444;
+  cursor: pointer;
+  display: inline;
+  font-size: 18px;
+  list-style-type: none;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#pageHeader nav > a:hover {
+  color: #fff;
+}
+
+#pageHeader nav > a:active {
+  background-color: #3db3f1;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  margin: 8px;
+  color: #fff;
+}
+
+#banner {
+  background-color: #fff;
+  height: 270px;
+  padding: 30px;
+}
+
+#banner p {
+  color: #444;
+  font-size: 16px;
+  padding: 55px;
+}
+
+#banner img {
+  width: 200px;
+  border-radius: 100px;
+  border: 2px solid #ccc;
+}
+
+#portfolio {
+  padding: 30px;
+}
+
+#portfolio img {
+  max-width: 100%;
+  padding: 30px;
+}
+
+#contact {
+  padding: 30px;
+}
+
+#contact input, textarea, button {
+  margin: 8px;
+}
+
+#pageFooter {
+  background-color: #2a2730;
+  height: 80px;
+  padding: 30px;
+  width: 100%;
+  color: #fff;
+}
+
+#pageFooter span {
+  float: left;
+}
+
+#pageFooter nav {
+  float: right;
+}
+
+#pageFooter nav a {
+  font-size: 24px;
+  margin: 8px;
 }
