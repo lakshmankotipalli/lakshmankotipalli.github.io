@@ -8,6 +8,12 @@ body {
   height: 80px;
   padding: 30px;
   width: 100%;
+  position: fixed;
+  z-index: 11;
+}
+
+main {
+  padding-top: 80px;
 }
 
 #pageHeader h1 {
@@ -82,6 +88,13 @@ body {
 
 #contact input, textarea, button {
   margin: 8px;
+  border: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#contact .more-about {
+  font-size: 18px;
 }
 
 #pageFooter {
