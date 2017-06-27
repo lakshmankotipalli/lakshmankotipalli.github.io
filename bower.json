@@ -1,0 +1,15 @@
+{
+  "name": "mahaDev-ThePortfolio",
+  "homepage": "https://github.com/lakshmankotipalli/mahaD3v.github.io",
+  "description": "Lakshman Kotipalli's Portfolio",
+  "main": "",
+  "authors": [
+    "Lakshman Kumar Kotipalli(mahaDev)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ]
+}
